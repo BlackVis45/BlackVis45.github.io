@@ -9,7 +9,7 @@ searchForm.addEventListener('submit', function (e) {
         return;
     }
 
-    fetch('http://localhost:5000/search', {
+    fetch('https://blackvis45-github-io.onrender.com/search', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
