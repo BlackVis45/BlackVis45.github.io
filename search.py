@@ -4,7 +4,7 @@ import requests
 from bs4 import BeautifulSoup
 
 app = Flask(__name__) #Start serveru
-CORS(app)  
+CORS(app, resources={r"/*": {"origins": "https://blackvis45-github-io.onrender.com"}})
 
 @app.route('/search', methods=['POST']) #Čekání na /search požadavek typu POST
 
