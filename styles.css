@@ -1,0 +1,45 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+}
